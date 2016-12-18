@@ -1,0 +1,31 @@
+<template>
+	<require from="bootstrap/css/bootstrap.css"></require>
+	<require from="stackpanel"></require>
+	<div class="container">
+
+		<h1>${heading}</h1>
+
+		<h2>${horizoltalexemple}</h2>
+		<logofx-stack-panel orientation="horizontal">
+		    <button>Button 1</button>
+		    <span> TEXT-TEXT-TEXT</span>
+		   	<button>Button 2</button>
+			<input type="text" name="firstname"/>
+			<button>Button 3</button>
+			<input type="text" name="lastname"/>
+			<button>Button 4</button>
+		</logofx-stack-panel>
+
+		<h2>${verticalexemple}</h2>
+		<logofx-stack-panel orientation="vertical">
+		    <button>Button 1</button>
+		    <span> TEXT-TEXT-TEXT</span>
+		   	<button>Button 2</button>
+			<input type="text" name="firstname"/>
+			<button>Button 3</button>
+			<input type="text" name="lastname"/>
+			<button>Button 4</button>
+		</logofx-stack-panel>
+
+	</div>
+</template>
